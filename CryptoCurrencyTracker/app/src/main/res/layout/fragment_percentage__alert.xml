@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Select Coin :"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+
+            <Spinner
+                android:id="@+id/percetage_coins_spin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/Coin_Array"
+                android:padding="16dp"></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Current Price :"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/set_percentage_price_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="$179"
+                android:layout_weight="1"
+                android:padding="16dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:text="Set Low Percentage Value :"
+                android:textSize="16dp"
+                />
+            <EditText
+                android:id="@+id/percent_low_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="7 (in %)"
+                android:padding="16dp"
+                android:inputType="number"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:text="Set high Percentage Value :"
+                android:textSize="16dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/percent_high_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="70 (in %)"
+                android:padding="16dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/percentage_alert_save_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                />
+
+            <Button
+                android:id="@+id/percentage_alert_cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:layout_margin="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

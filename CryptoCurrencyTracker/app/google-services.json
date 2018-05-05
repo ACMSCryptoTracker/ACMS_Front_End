@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957102436867",
+    "project_id": "cryptocurrencytr-1522313422349"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957102436867:android:6f991d01769adc89",
+        "android_client_info": {
+          "package_name": "android.cryptocurrencytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957102436867-61qitbmiqrehspmnjs4qajdh0sfv196q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "957102436867-i647pkhf6t80k7p25mvirt6405ln9ji5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.cryptocurrencytracker",
+            "certificate_hash": "8535a37a72c9df4e662766ebc9e4b99204df9706"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGultvJ0zvNycaFbYOV3l4fspfxcEiGB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

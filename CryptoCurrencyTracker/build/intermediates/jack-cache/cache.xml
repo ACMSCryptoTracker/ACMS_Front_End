@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-c637b26d282155d33908554d475ddcfbabcbe96f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-617d47f923d20564f42b36ecbc427842fc7f2843.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-79c939d56a70f074f375f169a2d842b3956391b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="c4f671536858c41bf8e91eb628c8bcdb2e9251e1">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-2d2245357d1d68bf9fbceacfdbe03e4e63b85d53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-9bb3750c8f8f85f1f5813ab94af362138a744129.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-160f806c6478cd670069c748d4875b1dc30fafc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-360c76f3a05dff5dee49fc08d0c99d762f190255.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-7a91d5d6d059b7b17b81552751bb089ad3db456d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-056f750f4be5ab7c982d39cb85dc07847960c2be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-977ce55fbdffef251482dfcd18b153c2bc545e78.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-a0b954725910c74e6f1de63c32cc73e8dda55da6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\design\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="f7e3ff2cb093a99c8dc1ff3d50c176019fa5d7c1">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-547df49b781fb9f17542b0ff33a77f5c4d9b81d9.jar" />
+    </item>
+    <item
+        jar="C:\Android Studio Setup\sdk\platforms\android-27\android.jar"
+        revision="24.0.1"
+        sha1="eef427ae8ddf45923e199ef329cc834bd9115182">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\runtime\android-160f017d29773857e535201ea0d3be43c4b3bba9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-ad64f4af886a1dd3f54546a8139782cb82a5fc34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="8eddc2c331fbbd5fe3b64fa2488cc30888816a6b">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-39942c22103cdecb1ceae6dcdadbcedf95d1be28.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\glide-3.7.0-f2b2cd13e5d78e91027429ccaae76ce006698d41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-abd0f2d46672518a7ec3fa4456c3b371e61b1132.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="668473027f40fa0cdd5b2db78ba02d676ffd3a2b">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-f84a4acc7a3563ffcfb6cc9709a57df067ebb764.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\transition\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="a4f81a342ac6bace97ad1420eb47fc11ab749a03">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-a13f85af4e5235d7ff79bc5dbc42fb0a5c600aeb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="858c1e21a2570a2416153aecab70d27a11965e79">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-ff0511387462855bec1c79e96c370064e8a0b64c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-704ac623af0f48dd3e6bfeb0e92b1242d6823e58.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-8b384dc1b33e20e5d6e741ced3ef41921a3d8c90.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-a2aabf26994208a2c0fa9bca4ac921f388733b65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        revision="24.0.1"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\common-1.1.0-820e4353fad0a74fd522d3532e8b810c8194e861.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        revision="24.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\support-annotations-27.1.0-c669162a177f5e804e0cfed4ade5d13f74232177.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="7da84426d876216ed4cdddd85e739be5ecabdd04">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-7713708e779d1b5324841ec33418115c93fc2693.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-3df0e4fab74218228a0dbd6a3051288813b93d72.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-0bf5531c7fccb495d89493dffea03818c3226e8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        revision="24.0.1"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\common-1.1.0-faabf7b91b7ff28ce75c17f58f4138d93c8c600a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-886ccac1567238cc9f4b42f2c553246f4cc3fc8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.0\jars\classes.jar"
+        revision="24.0.1"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\Nishu\Desktop\CryptoCurrencyTracker\app\build\intermediates\jill\debug\packaged\classes-e5ca18cf404da5243ebc5b3821f707c0201c4525.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CryptoCurrencyTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading...</string>
+    <string name="title_activity_list__of__cryptocurrency">List_Of_Cryptocurrency</string>
+    <string name="nav_header_title">Cryptocurrency Tracker</string>
+    <string name="nav_header_subtitle">Cryptocurrency Tracker@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string-array name="Change_Array_Values">
+        <item>1 Day</item>
+        <item>1 Month</item>
+        <item>1 Year</item>
+    </string-array>
+
+    <string-array name="Coin_Array">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>LTC</item>
+        <item>BCH</item>
+        <item>XRP</item>
+    </string-array>
+
+    <string-array name="Alert_Frequency_Array">
+        <item>Daily</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+
+    <string name="title_activity_alert">Alert</string>
+
+</resources>
