@@ -39,7 +39,10 @@ public class Recycler_View_Adapter  extends RecyclerView.Adapter<Recycler_View_A
         holder.text_crypto_name.setText(recycler_view_class.getCryto_name());
         holder.text_symbol.setText(recycler_view_class.getCrypto_symbol());
         holder.text_price.setText(String.valueOf(recycler_view_class.getPrice()));
-        holder.text_change.setText(String.valueOf(recycler_view_class.getChange()));
+        holder.text_change1d.setText(String.valueOf(recycler_view_class.getChange1d()));
+        /*holder.text_change1w.setText(String.valueOf(recycler_view_class.getChange1w()));
+        holder.text_change1m.setText(String.valueOf(recycler_view_class.getChange1m()));
+        holder.text_change1y.setText(String.valueOf(recycler_view_class.getChange1y()));*/
 
         holder.crypto_symbol.setImageDrawable(mCtx.getResources().getDrawable(recycler_view_class.getImage()));
     }
@@ -52,7 +55,7 @@ public class Recycler_View_Adapter  extends RecyclerView.Adapter<Recycler_View_A
     class Recycler_View_View_Holder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         ImageView crypto_symbol;
-        TextView text_crypto_name,text_symbol,text_price, text_change;
+        TextView text_crypto_name,text_symbol,text_price, text_change1d, text_change1w, text_change1m ,text_change1y;
 
         public Recycler_View_View_Holder(View itemView) {
             super(itemView);
@@ -61,7 +64,10 @@ public class Recycler_View_Adapter  extends RecyclerView.Adapter<Recycler_View_A
             text_crypto_name = itemView.findViewById(R.id.txt_crypto_name);
             text_symbol = itemView.findViewById(R.id.txt_symbol);
             text_price = itemView.findViewById(R.id.txt_price);
-            text_change = itemView.findViewById(R.id.txt_change1d);
+            text_change1d = itemView.findViewById(R.id.txt_change1d);
+            /*text_change1w = itemView.findViewById(R.id.txt_change1w);
+            text_change1m = itemView.findViewById(R.id.txt_change1m);
+            text_change1y = itemView.findViewById(R.id.txt_change1y);*/
 
             itemView.setOnClickListener(this);
         }

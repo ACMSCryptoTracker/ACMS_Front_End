@@ -75,7 +75,6 @@ public class List_Of_Cryptocurrency extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-
         //connection
         String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/currentData";
 
@@ -108,8 +107,8 @@ public class List_Of_Cryptocurrency extends AppCompatActivity
                                     jobj.getString("name"),
                                     jobj.getString("symbol"),
                                     Double.parseDouble(jobj.getString("price_usd")),
-                                    Double.parseDouble(jobj.getString("percent_change_24h"
-                                    ))));
+                                    Double.parseDouble(jobj.getString("percent_change_24h"))
+                            ));
                         }
                         Recycler_View_Adapter adapter=new Recycler_View_Adapter(getApplicationContext(), recycler_view_classList);
                         recyclerView.setAdapter(adapter);
@@ -146,10 +145,12 @@ public class List_Of_Cryptocurrency extends AppCompatActivity
         jsObjRequest2.setRetryPolicy(new DefaultRetryPolicy(30000,DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
         MySingleton.getInstance(getApplicationContext()).addToRequestQueue(jsObjRequest2);
 
-        //recycler view linear layout manager is by default vertical
+ /*       //recycler view linear layout manager is by default vertical
 
-
-       /* recycler_view_classList = new ArrayList<>();
+        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+        recycler_view_classList = new ArrayList<>();
 
         recycler_view_classList.add(
                 new Recycler_View_Class(
@@ -196,10 +197,21 @@ public class List_Of_Cryptocurrency extends AppCompatActivity
                         87175.5,
                         5.96
                 ));
+
+        Recycler_View_Adapter adapter=new Recycler_View_Adapter(getApplicationContext(), recycler_view_classList);
+        recyclerView.setAdapter(adapter);
+        adapter.setOnItemClickListener(new Recycler_View_Adapter.ClickListener() {
+            @Override
+            public void onItemClick(int position, View v) {
+                Recycler_View_Class recycler_view_class=recycler_view_classList.get(position);
+                Log.i("sym",recycler_view_class.getCrypto_symbol());
+                Intent intent= new Intent(getApplication(),CryptoCurrencyVisualization.class);
+                intent.putExtra("symbol",recycler_view_class.getCrypto_symbol());
+                startActivity(intent);
+            }
+        });
+
 */
-
-
-
     }
 
     @Override

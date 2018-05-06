@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HorizontalScrollView
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -23,9 +23,7 @@
             android:background="@android:color/darker_gray"
             android:padding="16dp"
             android:layout_marginTop="7dp"/>
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -53,31 +51,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Change 1 day"
+                    android:text="Change"
                     android:paddingRight="16dp"
                     />
-                <TextView
+                <Spinner
+                    android:id="@+id/list_change_value_spin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Change 1 week"
-                    android:paddingRight="16dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Change 1 month"
-                    android:paddingRight="16dp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Change 1 year"
-                    android:paddingRight="16dp"
-                    />
+                    android:entries="@array/Change_Array_Values"
+                    android:padding="16dp"
+                    ></Spinner>
             </LinearLayout>
-        </HorizontalScrollView>
-
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -92,4 +76,4 @@
             android:layout_height="match_parent"
             android:padding="5dp"/>
     </LinearLayout>
-</HorizontalScrollView>
+</ScrollView>
