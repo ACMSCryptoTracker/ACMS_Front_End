@@ -85,7 +85,6 @@
                 android:layout_weight="1"/>
         </LinearLayout>
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,9 +98,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:layout_weight="1"
-                android:text="Set high Percentage Value :"
+                android:text="Set High Percentage Value :"
                 android:textSize="16dp"
-                android:inputType="number"
                 />
             <EditText
                 android:id="@+id/percent_high_edit"
@@ -109,6 +107,7 @@
                 android:layout_height="wrap_content"
                 android:hint="70 (in %)"
                 android:padding="16dp"
+                android:inputType="number"
                 android:layout_weight="1"/>
         </LinearLayout>
 

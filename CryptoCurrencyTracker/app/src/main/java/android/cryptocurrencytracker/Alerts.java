@@ -45,7 +45,7 @@ public class Alerts extends AppCompatActivity{
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Coin_Alert(), "COIN ALERT");
+        //adapter.addFragment(new Coin_Alert(), "COIN ALERT");
         adapter.addFragment(new High_Low_Alert(), "HIGH/LOW ALERT");
         adapter.addFragment(new Percentage_Alert(),"PERCENTAGE ALERT");
         adapter.addFragment(new Volume_Alert(),"VOLUME ALERT");

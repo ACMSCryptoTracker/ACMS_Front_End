@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:layout_weight="1"
-                android:text="volume decrease by :"
+                android:text="Volume Decrease by :"
                 android:textSize="16dp"
                 />
             <EditText
@@ -84,7 +84,6 @@
                 android:layout_weight="1"
                 android:inputType="number"/>
         </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -99,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:layout_weight="1"
-                android:text="volume increase by :"
+                android:text="Volume Increase by :"
                 android:textSize="16dp"
                 />
             <EditText

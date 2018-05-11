@@ -87,7 +87,7 @@ public class LogIn extends AppCompatActivity{
         {
             Toast.makeText(this, "Email Pattern is not correct", Toast.LENGTH_SHORT).show();
         }
-/*
+
         //connection
         String URL = "https://cryptopricetracker.herokuapp.com/login";
         JSONObject jsonBody2 = new JSONObject();
@@ -158,12 +158,5 @@ public class LogIn extends AppCompatActivity{
         };
         jsObjRequest2.setRetryPolicy(new DefaultRetryPolicy(30000,DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
         MySingleton.getInstance(getApplicationContext()).addToRequestQueue(jsObjRequest2);
-*/
-
-        Intent it=new Intent(getApplicationContext(), List_Of_Cryptocurrency.class);
-        startActivity(it);
-        Toast.makeText(getApplicationContext(), "List Of Cryptocurrencies", Toast.LENGTH_SHORT).show();
-
-
     }
 }
