@@ -85,7 +85,7 @@ public class SignUp extends AppCompatActivity {
         }
 
         //connection
-        String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/registeration";
+        String URL = "https://cryptopricetracker.herokuapp.com/registeration";
         JSONObject jsonBody2 = new JSONObject();
         try {
             jsonBody2.put("name",first +" "+ last);

@@ -76,7 +76,7 @@ public class List_Of_Cryptocurrency extends AppCompatActivity
 
 
         //connection
-        String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/currentData";
+        String URL = "https://cryptopricetracker.herokuapp.com/currentData";
 
         final StringRequest jsObjRequest2 = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
             @Override

@@ -89,7 +89,7 @@ public class LogIn extends AppCompatActivity{
         }
 /*
         //connection
-        String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/login";
+        String URL = "https://cryptopricetracker.herokuapp.com/login";
         JSONObject jsonBody2 = new JSONObject();
         try {
             jsonBody2.put("email",Luserid);

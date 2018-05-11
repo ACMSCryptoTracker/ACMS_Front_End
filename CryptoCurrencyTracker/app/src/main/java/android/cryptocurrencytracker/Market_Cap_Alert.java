@@ -65,7 +65,7 @@ public class Market_Cap_Alert extends Fragment {
 
                 final String coins = coins_spin.getSelectedItem().toString().trim();
                 //connection
-                String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/getCoinData";
+                String URL = "https://cryptopricetracker.herokuapp.com/getCoinData";
                 JSONObject jsonBody2 = new JSONObject();
                 try {
                     jsonBody2.put("coin",coins);
@@ -181,7 +181,7 @@ public class Market_Cap_Alert extends Fragment {
             Toast.makeText(getContext(), "Increase value Field can not be empty!", Toast.LENGTH_SHORT).show();
         }
         //connection
-        String URL = "http://ec2-18-218-241-79.us-east-2.compute.amazonaws.com/setAlert";
+        String URL = "https://cryptopricetracker.herokuapp.com/setAlert";
         JSONObject jsonBody2 = new JSONObject();
         try {
             jsonBody2.put("userid",userid);
